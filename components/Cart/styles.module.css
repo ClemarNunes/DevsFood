@@ -1,0 +1,203 @@
+.CartArea{
+    
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    right: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+ 
+
+.CartHeader{
+    width: 340px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+   
+}
+
+
+.CartHeaderArea{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+
+.cart{
+    width: 23px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.CartText{
+    color: #FFF;
+    font-size: 17px;
+    margin-left: 15px;
+    flex: 1;
+ 
+    align-items: end;
+    display: flex;
+    
+}
+
+.CartBody{
+    display: none;
+    color: #FFF;
+ 
+    
+     
+}
+
+ /* ************************************************************ */
+
+
+  
+ 
+.ProductItem{
+    display: flex;
+    margin: 10px;
+   
+}
+
+.ProductInfoArea{
+    flex: 1;
+    margin-left: 10px;
+   
+}
+
+
+.ProductName{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ProductPrice{
+    font-size: 13px;
+}
+
+.ProductQuantityArea{
+    display: flex;
+    align-items: center;
+}
+
+.ProductQuantityArea img{
+    width: 13px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.ProductQt{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.avisoArea{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.aviso{
+    
+    height: 43px;
+    
+    background-color: #FFF;
+    
+    color: rgb(17, 17, 17);
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.endereco{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.descontoArea{
+    font-size: 17px; 
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.desconto{
+    
+    width: 95%;
+    height: auto;
+    font-weight: bold;
+}
+
+.desconto input{
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+   
+}
+ 
+.AreaSubToal{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+ 
+.descontoItem{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between  ;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.AreaSubToal button{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+     
+    background-color: #FF0000;
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+.AreaSubToal button:hover {
+    
+    background-color: #D40F0F;
+    cursor: pointer;
+     
+}
+
+
+
+.teste{
+    height: 200px;
+}

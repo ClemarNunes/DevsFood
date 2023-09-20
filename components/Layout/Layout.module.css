@@ -1,0 +1,43 @@
+.Container{
+    background-color: #FF0000;
+   
+    height: 100vh;
+    display: flex;
+    
+}
+
+.menu {
+    display: flex;
+    /* background-color: #136713; */
+    background-color: #FF0000;
+    /* background-color: #DC143C; */
+    width: 80px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.PageBody{
+    display: flex;
+  
+    /* background-color: #000; */
+ 
+    background-color: #363636;  
+  
+     
+    background-image: url('/assets/novaImagem.jpg');    
+    flex: 1;
+  
+   
+}
+
+ .sombra{
+    display: flex;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+ 
+
+ }
+
+ 

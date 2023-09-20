@@ -1,0 +1,49 @@
+.Container{
+    background-color: #FFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+.productImage{
+   flex: 1;
+}
+.productsInfoArea{
+    display: flex;
+    flex: 1;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.nextImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    flex: 1;
+}
+
+.price{
+    font-size: 14px;
+    margin-bottom: 3px;
+    flex: 2;
+}
+
+.description{
+    flex: 2;  
+}

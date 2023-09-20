@@ -1,0 +1,94 @@
+.input {
+    
+    padding: 10px 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.input:focus {
+    border-bottom: 1px solid red;
+}
+
+.Container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.formArea{
+    box-shadow: 1px 1px 10px #FFF;
+    height: auto;
+    width: 400px;
+    border-radius: 20px;
+    color: #FFF;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+    background-color: #000;
+}
+
+ 
+
+ 
+
+.camposArea{
+    display: flex;
+
+    width: 95%;
+    height: 80px;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-top: 15px;
+ 
+}
+
+ 
+
+.formArea button{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FF0000;
+    margin-top: 34px;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+.formArea button:hover{
+    /* background-color: #ff0000c9; */
+    cursor: pointer;
+    
+}
+
+.error{
+    color: #FF0000;
+    font-size: 12px;
+ 
+    
+    
+}
+
+.camposArea label{
+    padding-top: 10px;
+     
+}
+
+
+ 

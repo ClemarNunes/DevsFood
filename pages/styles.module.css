@@ -1,0 +1,116 @@
+.Container {
+    width: 100%; 
+    padding: 18px;
+   height: 100%;
+}
+
+
+
+.containerProducts{
+    display: block;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.CategoryArea{
+    display: block;
+    padding: 10px;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+   
+    height: auto;
+}
+ 
+
+.titulo{
+     
+    height: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    color: white;
+    
+}
+
+.areaCategoria {
+    display: flex;
+    margin-top: 10px;
+    height: 100px;
+}
+
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+
+.ItensCategoria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.produtosArea{
+  padding: 8px;  
+  align-items: center;
+  justify-content: center;
+  display: flex;  
+}
+
+
+.ProductsPaginationArea{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.productPaginationItem{
+   background-color: #FFF;
+   padding: 5px 10px;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0,0, 0.16);
+   margin: 10px;
+   cursor: pointer;
+  
+}
+
+
+
+.usuario{
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+     
+    justify-content: end;
+    padding-right: 4px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.usuario button{
+    border-radius: 20px;
+    width: 80px;
+    margin-left: 15px;
+    height: 33px;
+    font-size: 14px;
+    background-color: #FF0000;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* padding-bottom: 3px; */
+
+   
+  /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
+
+  transform: scale(1);
+  transition: transform 0.2s ease;
+
+
+}
+
+.usuario button:hover{
+    background-color: red;
+    /* transform: translateY(-2px); */
+    transform: scale(1.1);
+    
+     
+}

@@ -1,0 +1,40 @@
+.Container {
+    width: 400px;
+ 
+    margin-bottom: 10px;
+    height: auto;
+ 
+    margin-bottom: 5px;
+}
+
+.Container img{
+    border-radius: 10px;
+}
+
+.ItemArea {
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.informationsArea{
+    margin-left: 15px;
+  
+    
+
+}
+
+.ProductName{
+    font-weight: bold;
+    font-size: 20px;
+     
+}
+
+.ingredients{
+ 
+    font-weight: bold;
+}
+.quantidade{
+    font-weight: bold;
+}

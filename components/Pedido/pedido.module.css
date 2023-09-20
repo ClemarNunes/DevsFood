@@ -1,0 +1,84 @@
+.Container{
+    width: 100%;
+    height: auto;
+    min-height: 380px;
+    background-color: hsl(0, 0%, 100%);
+    height: 380px;
+    border-radius: 20px;
+    
+}
+
+.load{
+    margin-bottom: 30px;
+}
+
+.pedidoArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.produtos{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 33px;
+}
+
+.endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.data{
+   
+    width: 100%;
+    height: 80%;
+
+}
+.data span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.enderecoInfo{
+    height: 80%;
+    width: 100%;
+}
+.enderecoInfo span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+ 
+.precoInformations{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 37px;
+    height: 80%;
+}
+ 
+
+.precoItem{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.precoItem span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.mensagem{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    font-weight: bold;
+}
